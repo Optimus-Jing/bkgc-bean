@@ -1,0 +1,27 @@
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+logs
+.mvn
+.springBeans
+.factorypath
+
+# idea ignore
+.idea/
+.mvn/
+logs/
+mvn*
+application.properties
+*.ipr
+*.iml
+*.iws
+/.apt_generated/
