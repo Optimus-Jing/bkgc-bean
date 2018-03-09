@@ -109,6 +109,7 @@ public class MachineInfo extends PageParam implements Serializable{
 
     private Integer status;
 
+    private String ui;
 
     private User user;
     
@@ -529,5 +530,13 @@ public class MachineInfo extends PageParam implements Serializable{
     @Override
     public void setSearchChannelId(Integer searchChannelId) {
         this.searchChannelId = searchChannelId;
+    }
+
+    public String getUi() {
+        return ui;
+    }
+
+    public void setUi(String ui) {
+        this.ui = ui;
     }
 }
