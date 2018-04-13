@@ -11,7 +11,7 @@ public class AppTest
     extends TestCase
 {
     /**
-     * Create the test case 测试提交权限1
+     * Create the test case
      *
      * @param testName name of the test case
      */
@@ -29,7 +29,7 @@ public class AppTest
     }
 
     /**
-     * Rigourous Test :-)  //测试 master权限
+     * Rigourous Test :-)
      */
     public void testApp()
     {

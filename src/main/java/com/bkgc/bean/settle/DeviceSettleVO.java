@@ -94,6 +94,10 @@ public class DeviceSettleVO extends PageParam{
 
     private Date operTime;
 
+    private String settleUsername;
+
+    private String settleUserId;
+
     public DeviceSettleVO(){
         super();
     }
@@ -360,8 +364,20 @@ public class DeviceSettleVO extends PageParam{
     public void setEndDateStr(String endDateStr) {
         this.endDateStr = endDateStr;
     }
-    
-    
-    
-    
+
+    public String getSettleUsername() {
+        return settleUsername;
+    }
+
+    public void setSettleUsername(String settleUsername) {
+        this.settleUsername = settleUsername;
+    }
+
+    public String getSettleUserId() {
+        return settleUserId;
+    }
+
+    public void setSettleUserId(String settleUserId) {
+        this.settleUserId = settleUserId;
+    }
 }
