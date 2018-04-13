@@ -119,6 +119,8 @@ public class MachineInfo extends PageParam implements Serializable{
 
     private Integer searchChannelId;
 
+    private String settlementUserId;
+
     
     public String getChannelName() {
 		return channelName;
@@ -530,6 +532,14 @@ public class MachineInfo extends PageParam implements Serializable{
     @Override
     public void setSearchChannelId(Integer searchChannelId) {
         this.searchChannelId = searchChannelId;
+    }
+
+    public String getSettlementUserId() {
+        return settlementUserId;
+    }
+
+    public void setSettlementUserId(String settlementUserId) {
+        this.settlementUserId = settlementUserId;
     }
 
     public String getUi() {
