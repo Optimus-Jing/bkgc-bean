@@ -1,39 +1,15 @@
 package com.bkgc.bean.machine;
 
 import com.bkgc.bean.PageParam;
+import lombok.Data;
 
-public class UserSearchVO extends PageParam{
-	
-	private String userName;
-	
-	private String loginId;
-	
-	private String phone;
+@Data
+public class UserSearchVO extends PageParam {
 
-	public String getUserName() {
-		return userName;
-	}
+    private String userName;
 
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
+    private String loginId;
 
-	public String getLoginId() {
-		return loginId;
-	}
-
-	public void setLoginId(String loginId) {
-		this.loginId = loginId;
-	}
-
-	public String getPhone() {
-		return phone;
-	}
-
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
-	
-	
+    private String phone;
 
 }

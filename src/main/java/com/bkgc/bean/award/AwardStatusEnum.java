@@ -1,18 +1,16 @@
 package com.bkgc.bean.award;
 
 
-public enum  AwardStatusEnum {
+public enum AwardStatusEnum {
 
     Wait_Award(0, "等待兑奖"),
     Award_Success(1, "兑奖处理成功"),
-    Award_Fail(2, "兑奖处理失败"),
-
-    ;
+    Award_Fail(2, "兑奖处理失败"),;
 
     private int code;
     private String value;
 
-    AwardStatusEnum(int code,String value){
+    AwardStatusEnum(int code, String value) {
         this.code = code;
         this.value = value;
     }

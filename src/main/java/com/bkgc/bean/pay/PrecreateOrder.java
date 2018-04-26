@@ -5,87 +5,87 @@ package com.bkgc.bean.pay;
  * Created by jwalker on 2016年8月15日
  */
 public class PrecreateOrder {
-	/**
-	 * 支付类型
-	 */
-	private String payType;
+    /**
+     * 支付类型
+     */
+    private String payType;
 
-	/**
-	 * 设备id
-	 */
-	private String deviceId;
+    /**
+     * 设备id
+     */
+    private String deviceId;
 
 
-	/**
-	 * 自设备编号
-	 */
-	private String sdeviceId;
+    /**
+     * 自设备编号
+     */
+    private String sdeviceId;
 
 
 	/*private String aisleName;*/
 
-	/**
-	 * 产品Id
-	 */
-	private String productId;
+    /**
+     * 产品Id
+     */
+    private String productId;
 
-	/**
-	 * 产品名称
-	 */
-	private String productName;
-	
-	private String categoryName;
+    /**
+     * 产品名称
+     */
+    private String productName;
 
-	/**
-	 * 总金额
-	 */
-	private String totalFee;
+    private String categoryName;
 
-	/**
-	 * 产品数量
-	 */
-	private String productCount;
+    /**
+     * 总金额
+     */
+    private String totalFee;
 
-	/**
-	 * 内容
-	 */
-	private String body;
+    /**
+     * 产品数量
+     */
+    private String productCount;
 
-	/**
-	 * 订单号
-	 */
-	private String orderNo;
+    /**
+     * 内容
+     */
+    private String body;
 
-	/**
-	 * 支付超时时间，单位为秒
-	 */
-	private String timeOut;
+    /**
+     * 订单号
+     */
+    private String orderNo;
 
-	/**
-	 * 用户id
-	 */
-	private String userId;
+    /**
+     * 支付超时时间，单位为秒
+     */
+    private String timeOut;
 
-	/**
-	 * 摘要
-	 */
-	private String subject;
+    /**
+     * 用户id
+     */
+    private String userId;
 
-	/**
-	 * 业务类型
-	 */
-	private String bussinessType;
+    /**
+     * 摘要
+     */
+    private String subject;
 
-	public String getPayType() {
-		return payType;
-	}
+    /**
+     * 业务类型
+     */
+    private String bussinessType;
 
-	public void setPayType(String payType) {
-		this.payType = payType;
-	}
+    public String getPayType() {
+        return payType;
+    }
+
+    public void setPayType(String payType) {
+        this.payType = payType;
+    }
 
 	/*public String getMachineId() {
-		return machineId;
+        return machineId;
 	}
 
 	public void setMachineId(String machineId) {
@@ -115,110 +115,110 @@ public class PrecreateOrder {
 	public void setMachineProductId(String machineProductId) {
 		this.machineProductId = machineProductId;
 	}*/
-	
 
-	public String getProductName() {
-		return productName;
-	}
 
-	public String getDeviceId() {
-		return deviceId;
-	}
+    public String getProductName() {
+        return productName;
+    }
 
-	public void setDeviceId(String deviceId) {
-		this.deviceId = deviceId;
-	}
+    public String getDeviceId() {
+        return deviceId;
+    }
 
-	public String getSdeviceId() {
-		return sdeviceId;
-	}
+    public void setDeviceId(String deviceId) {
+        this.deviceId = deviceId;
+    }
 
-	public void setSdeviceId(String sdeviceId) {
-		this.sdeviceId = sdeviceId;
-	}
-	
+    public String getSdeviceId() {
+        return sdeviceId;
+    }
 
-	public String getProductId() {
-		return productId;
-	}
+    public void setSdeviceId(String sdeviceId) {
+        this.sdeviceId = sdeviceId;
+    }
 
-	public void setProductId(String productId) {
-		this.productId = productId;
-	}
 
-	public void setProductName(String productName) {
-		this.productName = productName;
-	}
+    public String getProductId() {
+        return productId;
+    }
 
-	public String getCategoryName() {
-		return categoryName;
-	}
+    public void setProductId(String productId) {
+        this.productId = productId;
+    }
 
-	public void setCategoryName(String categoryName) {
-		this.categoryName = categoryName;
-	}
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
 
-	public String getTotalFee() {
-		return totalFee;
-	}
+    public String getCategoryName() {
+        return categoryName;
+    }
 
-	public void setTotalFee(String totalFee) {
-		this.totalFee = totalFee;
-	}
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
+    }
 
-	public String getProductCount() {
-		return productCount;
-	}
+    public String getTotalFee() {
+        return totalFee;
+    }
 
-	public void setProductCount(String productCount) {
-		this.productCount = productCount;
-	}
+    public void setTotalFee(String totalFee) {
+        this.totalFee = totalFee;
+    }
 
-	public String getBody() {
-		return body;
-	}
+    public String getProductCount() {
+        return productCount;
+    }
 
-	public void setBody(String body) {
-		this.body = body;
-	}
+    public void setProductCount(String productCount) {
+        this.productCount = productCount;
+    }
 
-	public String getOrderNo() {
-		return orderNo;
-	}
+    public String getBody() {
+        return body;
+    }
 
-	public void setOrderNo(String orderNo) {
-		this.orderNo = orderNo;
-	}
+    public void setBody(String body) {
+        this.body = body;
+    }
 
-	public String getTimeOut() {
-		return timeOut;
-	}
+    public String getOrderNo() {
+        return orderNo;
+    }
 
-	public void setTimeOut(String timeOut) {
-		this.timeOut = timeOut;
-	}
+    public void setOrderNo(String orderNo) {
+        this.orderNo = orderNo;
+    }
 
-	public String getUserId() {
-		return userId;
-	}
+    public String getTimeOut() {
+        return timeOut;
+    }
 
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
+    public void setTimeOut(String timeOut) {
+        this.timeOut = timeOut;
+    }
 
-	public String getSubject() {
-		return subject;
-	}
+    public String getUserId() {
+        return userId;
+    }
 
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
-	public String getBussinessType() {
-		return bussinessType;
-	}
+    public String getSubject() {
+        return subject;
+    }
 
-	public void setBussinessType(String bussinessType) {
-		this.bussinessType = bussinessType;
-	}
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public String getBussinessType() {
+        return bussinessType;
+    }
+
+    public void setBussinessType(String bussinessType) {
+        this.bussinessType = bussinessType;
+    }
 }

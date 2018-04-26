@@ -5,18 +5,16 @@ package com.bkgc.bean.pay;
  * <p>Description 消息topic和tag枚举 </p>
  * <p>Company:    北控国彩 </p>
  *
- * @Author         zhangft
- * @CreateDate     2017/6/23 上午10:02
+ * @Author zhangft
+ * @CreateDate 2017/6/23 上午10:02
  */
 public enum MqTopicTagEnum {
 
-    PAY_NOTIFY_FUJINPAY("Topic_BKGC_Dev_Payment_Notify","FujinPay"),
-    PAY_NOTIFY_WechatPay("Topic_BKGC_Dev_Payment_Notify","WechatPay"),
-    PAY_NOTIFY_Alipay("Topic_BKGC_Dev_Payment_Notify","Alipay"),
-    PAY_NOTIFY_Advertisement("Topic_BKGC_Dev_Mini_Program_Business_AD_Notify","TAG_AD"),
-    PAY_NOTIFY_Business("Topic_BKGC_Dev_Mini_Program_Business_AD_Notify","TAG_Business"),
-
-    ;
+    PAY_NOTIFY_FUJINPAY("Topic_BKGC_Dev_Payment_Notify", "FujinPay"),
+    PAY_NOTIFY_WechatPay("Topic_BKGC_Dev_Payment_Notify", "WechatPay"),
+    PAY_NOTIFY_Alipay("Topic_BKGC_Dev_Payment_Notify", "Alipay"),
+    PAY_NOTIFY_Advertisement("Topic_BKGC_Dev_Mini_Program_Business_AD_Notify", "TAG_AD"),
+    PAY_NOTIFY_Business("Topic_BKGC_Dev_Mini_Program_Business_AD_Notify", "TAG_Business"),;
 
     private String topic;
 

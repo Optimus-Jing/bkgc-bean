@@ -1,52 +1,20 @@
 package com.bkgc.bean;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.List;
 
-public class MachineRequestParams implements Serializable{
+@Data
+public class MachineRequestParams implements Serializable {
 
-	private static final long serialVersionUID = 71578004625259308L;
-	
-	private String channelIds;
-	
-	private String channelId;
-	
-	private List<Integer> idList;
-	
-	private String machineIds;
+    private static final long serialVersionUID = 71578004625259308L;
 
-	public String getChannelIds() {
-		return channelIds;
-	}
+    private String channelIds;
 
-	public void setChannelIds(String channelIds) {
-		this.channelIds = channelIds;
-	}
+    private String channelId;
 
-	public String getChannelId() {
-		return channelId;
-	}
+    private List<Integer> idList;
 
-	public void setChannelId(String channelId) {
-		this.channelId = channelId;
-	}
-
-	public List<Integer> getIdList() {
-		return idList;
-	}
-
-	public void setIdList(List<Integer> idList) {
-		this.idList = idList;
-	}
-
-	public String getMachineIds() {
-		return machineIds;
-	}
-
-	public void setMachineIds(String machineIds) {
-		this.machineIds = machineIds;
-	}
-
-
-
+    private String machineIds;
 }

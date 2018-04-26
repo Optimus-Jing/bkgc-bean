@@ -1,30 +1,17 @@
 package com.bkgc.bean.award;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 
+@Data
 public class AwardBriefInfo implements Serializable {
 
     private String userId;
     private BigDecimal amount;
 
-    public AwardBriefInfo(){
+    public AwardBriefInfo() {
         super();
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
-
-    public BigDecimal getAmount() {
-        return amount;
-    }
-
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
     }
 }

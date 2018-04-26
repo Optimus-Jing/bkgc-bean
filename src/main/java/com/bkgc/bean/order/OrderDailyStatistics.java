@@ -1,58 +1,31 @@
 package com.bkgc.bean.order;
 
+import lombok.Data;
+
 import java.math.BigDecimal;
 
+@Data
 public class OrderDailyStatistics {
-	
-	/**
-	 * 日期字符串（YYYYMMdd）
-	 */
-	private String dateStr;
-	
-	/**
-	 * 当日订单总额
-	 */
-	private String totalMoney;
-	
-	/**
-	 * 当日订单数量
-	 */
-	private int productNum;
-	
-	private String totalAmount;
-	
-	
 
-	public String getTotalAmount() {
-		return totalAmount;
-	}
+    /**
+     * 日期字符串（YYYYMMdd）
+     */
+    private String dateStr;
 
-	public void setTotalAmount(BigDecimal totalAmount) {
-		this.totalAmount = String.valueOf(totalAmount.doubleValue());
-	}
+    /**
+     * 当日订单总额
+     */
+    private String totalMoney;
 
-	public String getDateStr() {
-		return dateStr;
-	}
+    /**
+     * 当日订单数量
+     */
+    private int productNum;
 
-	public void setDateStr(String dateStr) {
-		this.dateStr = dateStr;
-	}
+    private String totalAmount;
 
-	public String getTotalMoney() {
-		return totalMoney;
-	}
 
-	public void setTotalMoney(BigDecimal totalMoney) {
-//		this.totalMoney=totalMoney.divide(new BigDecimal(100)).setScale(2,BigDecimal.ROUND_HALF_UP).toString();
-		this.totalMoney=totalMoney.setScale(2,BigDecimal.ROUND_HALF_UP).toString();
-	}
-
-	public int getProductNum() {
-		return productNum;
-	}
-
-	public void setProductNum(int productNum) {
-		this.productNum = productNum;
-	}
+    public void setTotalMoney(BigDecimal totalMoney) {
+        this.totalMoney = totalMoney.setScale(2, BigDecimal.ROUND_HALF_UP).toString();
+    }
 }

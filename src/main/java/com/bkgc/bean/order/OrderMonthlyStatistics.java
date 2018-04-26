@@ -1,47 +1,28 @@
 package com.bkgc.bean.order;
 
+import lombok.Data;
+
 import java.math.BigDecimal;
 
+@Data
 public class OrderMonthlyStatistics {
-	
-	/**
-	 * 月字符串（YYYYMM）
-	 */
-	private String monthStr;
-	
-	/**
-	 * 当日订单总额
-	 */
-	private String totalMoney;
-	
-	/**
-	 * 当日订单数量
-	 */
-	private int productNum;
 
-	
+    /**
+     * 月字符串（YYYYMM）
+     */
+    private String monthStr;
 
-	public String getMonthStr() {
-		return monthStr;
-	}
+    /**
+     * 当日订单总额
+     */
+    private String totalMoney;
 
-	public void setMonthStr(String monthStr) {
-		this.monthStr = monthStr;
-	}
+    /**
+     * 当日订单数量
+     */
+    private int productNum;
 
-	public String getTotalMoney() {
-		return totalMoney;
-	}
-
-	public void setTotalMoney(BigDecimal totalMoney) {
-		this.totalMoney=totalMoney.divide(new BigDecimal(100)).setScale(2).toString();
-	}
-
-	public int getProductNum() {
-		return productNum;
-	}
-
-	public void setProductNum(int productNum) {
-		this.productNum = productNum;
-	}
+    public void setTotalMoney(BigDecimal totalMoney) {
+        this.totalMoney = totalMoney.divide(new BigDecimal(100)).setScale(2).toString();
+    }
 }
