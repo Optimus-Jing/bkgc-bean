@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 
 @Data
@@ -64,8 +65,9 @@ public class Order implements Serializable {
 
     private String dateStr;
 
-    private int thirdpaystatus;
 
+    private int thirdpaystatus;
     private int thirdpaymoney;
 
+    private List<OrderDetail> orderDetails;
 }
