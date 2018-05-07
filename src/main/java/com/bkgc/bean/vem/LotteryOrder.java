@@ -114,4 +114,9 @@ public class LotteryOrder {
     //商户名称
     private String username;
 
+
+    private Integer provinceId;
+
+    private String provinceName;
+
 }

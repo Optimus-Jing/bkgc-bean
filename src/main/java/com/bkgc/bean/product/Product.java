@@ -53,4 +53,8 @@ public class Product {
 
     private int count;
 
+    private Integer provinceId;
+
+    private String provinceName;
+
 }

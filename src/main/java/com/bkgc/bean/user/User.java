@@ -51,4 +51,8 @@ public class User  implements Serializable{
 
     private String sexStr;
 
+    private Integer provinceId;
+
+    private String provinceName;
+
 }
