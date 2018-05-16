@@ -13,14 +13,4 @@ public class CommonParams {
 
     private String traceId;
 
-
-    @Override
-    public String toString() {
-        return "CommonParams{" +
-                "clientID='" + clientID + '\'' +
-                ", nonce_str='" + nonce_str + '\'' +
-                ", sign='" + sign + '\'' +
-                ", traceId='" + traceId + '\'' +
-                '}';
-    }
 }

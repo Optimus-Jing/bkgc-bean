@@ -1,66 +1,19 @@
 package com.bkgc.bean.pay;
 
+import lombok.Data;
+
+@Data
 public class FuJin {
-	
-	private String partner;
-	
-	private String out_trade_no;
-	
-	private String fee;
-	
-	private String machineId;
-	
-	private String subject;
-	
-	private String body;
 
-	public String getPartner() {
-		return partner;
-	}
+    private String partner;
 
-	public void setPartner(String partner) {
-		this.partner = partner;
-	}
+    private String out_trade_no;
 
-	public String getOut_trade_no() {
-		return out_trade_no;
-	}
+    private String fee;
 
-	public void setOut_trade_no(String out_trade_no) {
-		this.out_trade_no = out_trade_no;
-	}
+    private String machineId;
 
-	public String getFee() {
-		return fee;
-	}
+    private String subject;
 
-	public void setFee(String fee) {
-		this.fee = fee;
-	}
-
-	public String getSubject() {
-		return subject;
-	}
-
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
-
-	public String getBody() {
-		return body;
-	}
-
-	public void setBody(String body) {
-		this.body = body;
-	}
-
-	public String getMachineId() {
-		return machineId;
-	}
-
-	public void setMachineId(String machineId) {
-		this.machineId = machineId;
-	}
-	
-	
+    private String body;
 }

@@ -5,8 +5,8 @@ package com.bkgc.bean.pay;
  * <p>Description  </p>
  * <p>Company:    北控国彩 </p>
  *
- * @Author         zhangft
- * @CreateDate     2017/6/8 上午10:19
+ * @Author zhangft
+ * @CreateDate 2017/6/8 上午10:19
  */
 public enum PaySecretErrorEnum {
 
@@ -22,7 +22,7 @@ public enum PaySecretErrorEnum {
 
     private String desc;
 
-    PaySecretErrorEnum(int count,int minutes,String desc){
+    PaySecretErrorEnum(int count, int minutes, String desc) {
         this.count = count;
         this.minutes = minutes;
         this.desc = desc;

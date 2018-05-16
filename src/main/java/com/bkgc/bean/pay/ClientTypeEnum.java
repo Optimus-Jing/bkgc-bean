@@ -5,10 +5,10 @@ package com.bkgc.bean.pay;
  * <p>Description 客户端类型 </p>
  * <p>Company:    北控国彩 </p>
  *
- * @Author         zhangft
- * @CreateDate     2017/6/28 下午2:03
+ * @Author zhangft
+ * @CreateDate 2017/6/28 下午2:03
  */
-public enum  ClientTypeEnum {
+public enum ClientTypeEnum {
 
 //    Bless_Android_App("10", "福包App安卓端"),
 //    Bless_IOS_App("11", "福包App苹果端"),

@@ -5,8 +5,8 @@ package com.bkgc.bean.pay;
  * <p>Description 支付状态</p>
  * <p>Company:    北控国彩 </p>
  *
- * @Author         zhangft
- * @CreateDate     2017/6/7 上午10:09
+ * @Author zhangft
+ * @CreateDate 2017/6/7 上午10:09
  */
 public enum PayStatusEnum {
 
@@ -21,7 +21,7 @@ public enum PayStatusEnum {
 
     private String value;
 
-    PayStatusEnum(String key,String value){
+    PayStatusEnum(String key, String value) {
         this.key = key;
         this.value = value;
     }

@@ -1,16 +1,15 @@
 package com.bkgc.bean.channel;
 
+import com.bkgc.bean.PageParam;
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.Date;
 
-import com.bkgc.bean.PageParam;
-
-import lombok.Data;
-
 
 @Data
-public class Channel extends PageParam implements Serializable{
-	private static final long serialVersionUID = 6197925949941866035L;
+public class Channel extends PageParam implements Serializable {
+    private static final long serialVersionUID = 6197925949941866035L;
 
     private Integer id;
 
@@ -53,41 +52,15 @@ public class Channel extends PageParam implements Serializable{
     private Date updateTime;//更新时间
 
     private Integer status;//渠道状态
-    
+
     private Date createTimeStart;
-    
+
     private Date createTimeEnd;
 
     private Integer searchChannelId;
-    
+
     private String parentName;
-    
+
     private String guid;
-    
 
-
-	public Date getCreateTimeStart() {
-		return createTimeStart;
-	}
-
-	public void setCreateTimeStart(Date createTimeStart) {
-		this.createTimeStart = createTimeStart;
-	}
-
-	public Date getCreateTimeEnd() {
-		return createTimeEnd;
-	}
-
-	public void setCreateTimeEnd(Date createTimeEnd) {
-		this.createTimeEnd = createTimeEnd;
-	}
-    public String getParentName() {
-		return parentName;
-	}
-
-	public void setParentName(String parentName) {
-		this.parentName = parentName;
-	}
-    
-    
 }

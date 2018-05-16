@@ -5,8 +5,8 @@ package com.bkgc.bean.pay;
  * <p>Description  </p>
  * <p>Company:    北控国彩 </p>
  *
- * @Author         zhangft
- * @CreateDate     2017/6/13 上午9:27
+ * @Author zhangft
+ * @CreateDate 2017/6/13 上午9:27
  */
 public enum InOutWayEnum {
     //In_Bless(11, "收入：福金福包"),
@@ -40,11 +40,10 @@ public enum InOutWayEnum {
     Out_Wechat_Withdraw(61, "支出：微信提现"),
     Out_Alipay_Withdraw(62, "支出：支付宝提现"),
     Out_Bless_Game_Pay(63, "支出：游戏福包支付"),
-    Out_Mch_Wechat_Withdraw(64,"支出：微信提现"),
+    Out_Mch_Wechat_Withdraw(64, "支出：微信提现"),
 
     Out_Mch_Bless_LotteryBuy(81, "支出：福包进彩"),
-    Out_Mch_Wechat_LotteryBuy(82, "支出：微信进彩"),
-    ;
+    Out_Mch_Wechat_LotteryBuy(82, "支出：微信进彩"),;
 
 
     private int key;
@@ -72,5 +71,5 @@ public enum InOutWayEnum {
     public void setDesc(String desc) {
         this.desc = desc;
     }
-   
+
 }

@@ -5,21 +5,19 @@ package com.bkgc.bean.pay;
  * <p>Description  转入转出类型枚举</p>
  * <p>Company:    北控国彩 </p>
  *
- * @Author         zhangft
- * @CreateDate     2017/6/8 下午4:46
+ * @Author zhangft
+ * @CreateDate 2017/6/8 下午4:46
  */
 public enum MoneyWayEnum {
 
-    In("0" ,"转入") ,
+    In("0", "转入"),
 
-    Out("1" ,"转出") ,
-
-    ;
+    Out("1", "转出"),;
 
     private String key;
     private String value;
 
-    MoneyWayEnum(String key, String value){
+    MoneyWayEnum(String key, String value) {
         this.key = key;
         this.value = value;
     }
