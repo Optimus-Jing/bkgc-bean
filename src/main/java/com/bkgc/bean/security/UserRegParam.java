@@ -46,4 +46,7 @@ public class UserRegParam {
 
     //手机验证码
     private String code;
+
+    //微信平台唯一验证
+    private String 	unionId;
 }
