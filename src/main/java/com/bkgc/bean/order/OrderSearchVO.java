@@ -53,4 +53,6 @@ public class OrderSearchVO extends CommonParams {
     private String searchParam;//通用搜索字段
     private Integer recordCount; //总条数
     private Integer searchChannelId;//搜索的渠道Id
+
+    private Integer productId;
 }

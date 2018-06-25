@@ -120,4 +120,12 @@ public class MachineInfo extends PageParam implements Serializable {
     private Integer searchChannelId;
 
     private String settlementUserId;
+
+    private String imei;
+
+    /**
+     * 铭牌号
+     */
+    private String nameplate;
+
 }

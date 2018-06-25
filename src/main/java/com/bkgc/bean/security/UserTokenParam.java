@@ -36,4 +36,30 @@ public class UserTokenParam {
 
     //登录方式
     private String login_type;
+
+    private String roleid;
+
+    private String loginByPhoneCode;
+
+    private String unionId;
+
+    private String imei;
+
+    private String macAddr;
+
+    private String ip;
+
+    private Integer loginType;
+
+    private String terminalType;
+
+    private String phoneModel;
+
+    private String systemVersion;
+
+    private String channel;
+
+    private String appVersion;
+
+    private boolean checkImei;
 }
