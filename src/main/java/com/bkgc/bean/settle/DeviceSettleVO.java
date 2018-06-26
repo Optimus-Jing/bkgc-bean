@@ -80,6 +80,8 @@ public class DeviceSettleVO extends PageParam {
 
     private String settleMchName;
 
+    private int settleState;
+
     public DeviceSettleVO() {
         super();
     }
