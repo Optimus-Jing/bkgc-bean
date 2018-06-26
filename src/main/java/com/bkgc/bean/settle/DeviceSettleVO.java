@@ -76,6 +76,10 @@ public class DeviceSettleVO extends PageParam {
 
     private String settleUserId;
 
+    private String settleMchId;
+
+    private String settleMchName;
+
     public DeviceSettleVO() {
         super();
     }
@@ -161,4 +165,6 @@ public class DeviceSettleVO extends PageParam {
     public String getEndDateStr() {
         return endDateStr;
     }
+
+
 }
