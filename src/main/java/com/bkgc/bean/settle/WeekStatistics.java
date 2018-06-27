@@ -60,4 +60,6 @@ public class WeekStatistics {
      */
     private int count;
 
+    private int settleState;
+
 }

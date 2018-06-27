@@ -24,4 +24,6 @@ public class SettleSearchBean {
 
     private String deviceSettleId;
 
+    private int settleState;
+
 }
