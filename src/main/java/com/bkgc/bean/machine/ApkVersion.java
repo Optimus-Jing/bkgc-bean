@@ -29,4 +29,8 @@ public class ApkVersion {
     private String url;
 
     private Integer isUpgrade;
+
+    private Integer online;
+
+    private Integer show;
 }
