@@ -23,4 +23,11 @@ public class MailedAward {
     private String rewardId;
 
     private Integer status;
+
+    private String address;
+
+    private String name;
+
+    private String phone;
+
 }
