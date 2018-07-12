@@ -1,4 +1,4 @@
-package com.bkgc.bean.game;
+package com.bkgc.bean.game.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class MailedAward {
+public class MailedAwardVo {
     private String id;
 
     private String cardId;
@@ -34,7 +34,6 @@ public class MailedAward {
     /**
      * 邮寄日期
      */
-    @JsonFormat(pattern = "yyyy-MM-dd", timezone = "GMT+8")
-    private Date mailingDate;
+    private String mailingDate;
 
 }
