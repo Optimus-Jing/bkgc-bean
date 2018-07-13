@@ -1,6 +1,7 @@
 package com.bkgc.bean.bless;
 
 import com.bkgc.bean.PageParam;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.text.SimpleDateFormat;
@@ -51,6 +52,7 @@ public class Msg {
     /**
      * 创建时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;
 
     private String alias;
@@ -64,6 +66,21 @@ public class Msg {
      * 是否删除:0.否,1.是
      */
     private Integer isFlag;
+
+    /**
+     * 1个人消息；2公共消息（群发）
+     */
+    private Integer type;
+
+    /**
+     * 消息头
+     */
+    private String title;
+
+    /**
+     * 对应msgtype的描述
+     */
+    private String msgTypeDesc;
 
 
     public Msg() {
