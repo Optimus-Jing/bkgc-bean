@@ -25,4 +25,6 @@ public class Reward {
     private BigDecimal price;
 
     private String guid;
+
+    private Integer weight;
 }

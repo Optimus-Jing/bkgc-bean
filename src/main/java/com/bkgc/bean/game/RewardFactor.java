@@ -16,6 +16,8 @@ public class RewardFactor {
 
     private Integer luckyValue;
 
+    private Integer luckySum;
+
     private BigDecimal gameRewardPrice;
 
     private Integer sharingGameTimes;
