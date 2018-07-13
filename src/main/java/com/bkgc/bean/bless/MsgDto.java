@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Data
-public class Msg {
+public class MsgDto {
 
     private int msgId;
 
@@ -83,6 +83,6 @@ public class Msg {
     private String msgTypeDesc;
 
 
-    public Msg() {
+    public MsgDto() {
     }
 }

@@ -14,20 +14,9 @@ public class MsgBean {
     private int  pageNum;
     private int  pageSize;
     /**
-     * 消息类型
+     * 用户Id
      */
-    private String msgType;
-
-
-    public MsgBean(int pageSize, int pageNum) {
-        this.pageSize = pageSize;
-        this.pageNum = pageNum;
-    }
-
-    public MsgBean(int pageNum, int pageSize, String msgType) {
-        this(pageSize,pageNum);
-        this.msgType = msgType;
-    }
+    private String userId;
 
 }
 
