@@ -202,4 +202,12 @@ public class LottoAutoawardOrder {
     private String awardstatusname;
 
     private String requesttypename;
+    /**
+     * 订单是否使用过翻倍卡  1：使用过
+     */
+    private String useCard;
+    /**
+     * 标识是不是自助机销售的彩票 1：是自助机销售 0：不是自助机销售
+     */
+    private String sell;
 }
