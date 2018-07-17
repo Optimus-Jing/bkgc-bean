@@ -29,4 +29,15 @@ public class RewardOfUserDto {
      */
     private Date useTime;
 
+    /**
+     * 配送状态
+     */
+    private Integer distributionStatus;
+
+    //快递单号
+    private String mailNo;
+
+    //快递公司
+    private String courier;
+
 }
