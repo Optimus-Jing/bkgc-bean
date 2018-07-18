@@ -30,7 +30,7 @@ public class RewardOfUserDto {
     private Date useTime;
 
     /**
-     * 配送状态
+     * 物流订单状态
      */
     private Integer distributionStatus;
 
