@@ -210,4 +210,9 @@ public class LottoAutoawardOrder {
      * 标识是不是自助机销售的彩票 1：是自助机销售 0：不是自助机销售
      */
     private String sell;
+
+    /**
+     * 面额(元)
+     */
+    private Integer denomination;
 }
