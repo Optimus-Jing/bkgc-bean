@@ -24,5 +24,6 @@ public class MailRewardOrder extends PageParam {
     private Integer status;
     private String userId;
     private String rewardId;
+    private String cardId;
 
 }
