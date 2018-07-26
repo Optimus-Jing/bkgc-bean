@@ -22,7 +22,7 @@ public enum InOutWayEnum {
     In_Pay_Wechat_Refund(21, "收入：微信支付退款"),
     In_BusinessAccount_Recharge(22, "收入：企业福包账户充值"),
     In_Game_Award_Bless(23, "收入：夺宝福包"),
-    In_Game_Award_Double(24, "收入：夺宝奖金翻倍"),
+    In_Game_Award_Double(24, "收入：兑奖翻倍奖金"),
     In_Mch_LotteryBuy_Refund(41, "收入：福包进彩退款"),
     In_Mch_Sale_Cash_Settle(42, "收入：本金结算"),
     In_Mch_Sale_Commission_Settle(43, "收入：佣金结算"),
