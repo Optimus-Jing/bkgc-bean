@@ -43,7 +43,8 @@ public enum InOutWayEnum {
     Out_Mch_Wechat_Withdraw(64, "支出：微信提现"),
 
     Out_Mch_Bless_LotteryBuy(81, "支出：福包进彩"),
-    Out_Mch_Wechat_LotteryBuy(82, "支出：微信进彩"),;
+    Out_Mch_Wechat_LotteryBuy(82, "支出：微信进彩"),
+    Out_Sys_Correction(83, "支出：系统冲正");
 
 
     private int key;
