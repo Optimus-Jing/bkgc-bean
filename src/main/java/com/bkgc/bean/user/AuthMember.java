@@ -48,6 +48,8 @@ public class AuthMember extends PageParam implements Serializable {
 
     private String unionId;
 
+    private Integer status;
+
     public AuthMember() {
         super();
     }
