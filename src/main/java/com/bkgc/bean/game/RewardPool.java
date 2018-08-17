@@ -15,4 +15,6 @@ public class RewardPool {
     private Integer remain;
 
     private Integer state;
+
+    private Integer rewardPoolNum;
 }

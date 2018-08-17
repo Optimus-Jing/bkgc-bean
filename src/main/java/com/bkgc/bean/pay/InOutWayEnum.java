@@ -1,5 +1,7 @@
 package com.bkgc.bean.pay;
 
+import java.util.UUID;
+
 /**
  * <p>Title:      InOutWayEnum </p>
  * <p>Description  </p>
@@ -73,4 +75,7 @@ public enum InOutWayEnum {
         this.desc = desc;
     }
 
+    public static void main(String[] args) {
+        System.out.println(UUID.randomUUID().toString().replace("-",""));
+    }
 }
