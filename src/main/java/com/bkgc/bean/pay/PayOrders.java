@@ -38,6 +38,8 @@ public class PayOrders extends PageParam {
 
     private BigDecimal fee;
 
+    private BigDecimal orderAmount;
+
     private Integer orderstatus;
 
     private Date finishtime;
