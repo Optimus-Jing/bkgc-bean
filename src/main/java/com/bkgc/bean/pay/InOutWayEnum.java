@@ -1,5 +1,7 @@
 package com.bkgc.bean.pay;
 
+import java.util.UUID;
+
 /**
  * <p>Title:      InOutWayEnum </p>
  * <p>Description  </p>
@@ -21,8 +23,8 @@ public enum InOutWayEnum {
     In_Pay_Alipay_Refund(20, "收入：支付宝支付退款"),
     In_Pay_Wechat_Refund(21, "收入：微信支付退款"),
     In_BusinessAccount_Recharge(22, "收入：企业福包账户充值"),
-    In_Game_Award_Bless(23, "收入：夺宝福包奖金"),
-    In_Game_Award_Double(24, "收入：夺宝奖金翻倍"),
+    In_Game_Award_Bless(23, "收入：夺宝福包"),
+    In_Game_Award_Double(24, "收入：兑奖翻倍奖金"),
     In_Mch_LotteryBuy_Refund(41, "收入：福包进彩退款"),
     In_Mch_Sale_Cash_Settle(42, "收入：本金结算"),
     In_Mch_Sale_Commission_Settle(43, "收入：佣金结算"),
@@ -39,11 +41,12 @@ public enum InOutWayEnum {
     Out_Fujin_Scan_Pay(60, "支出：福包兑换"),
     Out_Wechat_Withdraw(61, "支出：微信提现"),
     Out_Alipay_Withdraw(62, "支出：支付宝提现"),
-    Out_Bless_Game_Pay(63, "支出：游戏福包支付"),
+    Out_Bless_Game_Pay(63, "支出：福包夺宝"),
     Out_Mch_Wechat_Withdraw(64, "支出：微信提现"),
 
     Out_Mch_Bless_LotteryBuy(81, "支出：福包进彩"),
-    Out_Mch_Wechat_LotteryBuy(82, "支出：微信进彩"),;
+    Out_Mch_Wechat_LotteryBuy(82, "支出：微信进彩"),
+    Out_Sys_Correction(83, "支出：系统冲正");
 
 
     private int key;
@@ -72,4 +75,7 @@ public enum InOutWayEnum {
         this.desc = desc;
     }
 
+    public static void main(String[] args) {
+        System.out.println(UUID.randomUUID().toString().replace("-",""));
+    }
 }

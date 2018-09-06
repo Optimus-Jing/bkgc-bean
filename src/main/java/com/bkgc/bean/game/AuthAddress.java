@@ -31,4 +31,9 @@ public class AuthAddress {
     private Integer isdefault;
 
     private String district;
+
+    private String recipientId;
+
+    private Date updateTime;
+
 }

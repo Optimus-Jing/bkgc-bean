@@ -14,5 +14,9 @@ public class AlipayParams {
     private String timeout_express;
 
     private String terminal_id;
-	
+
+    private String sys_service_provider_id;
+
+    private String store_id;
+
 }

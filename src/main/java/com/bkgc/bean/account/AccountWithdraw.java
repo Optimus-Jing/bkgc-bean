@@ -40,4 +40,6 @@ public class AccountWithdraw extends PageParam {
 
     private String endDate;
 
+    private String orderNo;
+
 }

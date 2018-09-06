@@ -33,4 +33,7 @@ public class AwardCardUsage {
         this.userId = userId;
         this.rewardId = rewardId;
     }
+
+    public AwardCardUsage() {
+    }
 }

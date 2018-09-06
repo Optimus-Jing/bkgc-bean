@@ -8,7 +8,13 @@ public class RewardPool {
 
     private String rewardId;
 
+    private String rewardName;
+
     private Integer amount;
 
     private Integer remain;
+
+    private Integer state;
+
+    private Integer rewardPoolNum;
 }

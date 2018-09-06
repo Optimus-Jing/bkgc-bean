@@ -57,4 +57,6 @@ public class Product {
 
     private String provinceName;
 
+    private Integer denomination;
+
 }
