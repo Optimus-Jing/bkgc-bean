@@ -50,6 +50,16 @@ public class AuthAccount implements Serializable {
      */
     private int isLock;
 
+    /**
+     * 检查指纹支付状态
+     */
+    private int quickCheckStatus;
+
+    /**
+     * 用户手机imei
+     */
+    private String imei;
+
 
     private String startDate;
 
